@@ -49,6 +49,7 @@ namespace TipCalc.Views
         public TipView()
         {
             this.InitializeComponent();
+            Content.IsTapEnabled = false;
             //this.navigationHelper = new NavigationHelper(this);
             //this.navigationHelper.LoadState += navigationHelper_LoadState;
             //this.navigationHelper.SaveState += navigationHelper_SaveState;
